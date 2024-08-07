@@ -1,4 +1,4 @@
-import Content from "@/components/content";
+import Content from "@/components/Contents";
 import Frame from "@/components/Frame";
 import SideBar from "@/components/SideBar";
 
