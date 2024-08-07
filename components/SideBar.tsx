@@ -13,7 +13,7 @@ import { VscBook } from "react-icons/vsc";
 export default function SideBar() {
   const pathname = usePathname();
   return (
-    <div>
+    <>
       {/* Top Header */}
       <div className="p-4 mb-4">
         <Image src={logo} alt="Logo" width={188} height={45.15}></Image>
@@ -72,10 +72,10 @@ export default function SideBar() {
         </li>
       </ul>
       {/* Footer */}
-      <div className="mt-96 flex font-serif w-full p-4 text-special items-center cursor-pointer text-[#f1f1f1] hover:bg-[#33cc99]">
+      <div className="mt-[32rem] flex font-serif w-full p-4 text-special items-center cursor-pointer text-[#f1f1f1] hover:bg-[#33cc99]">
         <SlLogout size={30} className="block float-left mr-4" />
         <span>Log Out</span>
       </div>
-    </div>
+    </>
   );
 }
