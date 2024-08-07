@@ -1,0 +1,11 @@
+import MainContent from "./MainContent";
+import SubContent from "./SubContent";
+
+export default function Content() {
+  return (
+    <div className="lg:grid lg:grid-cols-4 lg:gap-6">
+      <MainContent />
+      <SubContent />
+    </div>
+  );
+}
