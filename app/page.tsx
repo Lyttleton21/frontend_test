@@ -1,5 +1,6 @@
 import Content from "@/components/Contents";
 import Frame from "@/components/Frame";
+import Review from "@/components/Review";
 import SideBar from "@/components/SideBar";
 
 export default function Home() {
@@ -16,7 +17,7 @@ export default function Home() {
         <Content />
       </section>
       <section className="md:col-span-4 md:row-span-5 lg:col-span-5">
-        Table Section
+        <Review />
       </section>
     </main>
   );
