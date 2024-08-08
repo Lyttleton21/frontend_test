@@ -77,7 +77,7 @@ export default function MyCourses() {
             </div>
           </CardFooter>
         </Card>
-        <Card className="w-[242px] h-[234px] rounded-sm mx-auto my-2">
+        <Card className="w-[242px] h-[234px] rounded-sm mx-auto my-2 lg:hidden xl:block">
           <CardHeader className="p-0">
             <Image
               src={network}

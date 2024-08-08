@@ -4,12 +4,12 @@ import { SlCalender } from "react-icons/sl";
 
 export default function Activity() {
   return (
-    <div className="bg-[#ffffff] w-full h-[360px] rounded-[9px] p-4 lg:mt-2">
+    <div className="bg-[#ffffff] w-full h-[360px] rounded-[9px] p-4 lg:mt-2 xl:h-[280px]">
       <h3 className="font-serif text-[22px] leading-[26.82px] text-[#1a1a1a]">
         Your Activity
       </h3>
       <hr className="my-2 border-[1px] text-[#dcdddd]" />
-      <ScrollArea className="w-full h-[280px] outline-none">
+      <ScrollArea className="w-full h-[280px] outline-none xl:h-[210px]">
         <div className="flex items-center">
           <div className="mr-3 xl:mr-14">
             <CgEditBlackPoint className="text-[#000066]" />
