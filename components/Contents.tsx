@@ -3,7 +3,7 @@ import SubContent from "./SubContent";
 
 export default function Content() {
   return (
-    <div className="lg:grid lg:grid-cols-4 lg:gap-4">
+    <div className="md:mt-[-68px] lg:grid lg:grid-cols-4 lg:mt-[-45px] xl:mt-0">
       <MainContent />
       <SubContent />
     </div>
