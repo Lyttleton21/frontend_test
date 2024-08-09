@@ -52,10 +52,10 @@ export default function SideBar() {
         </li>
         <li
           className={`flex ${
-            pathname === "/Grading" && "bg-[#33cc99] text-black"
+            pathname === "/grading" && "bg-[#33cc99] text-black"
           } font-serif w-full p-4 text-special items-center cursor-pointer text-[#f1f1f1] hover:bg-[#33cc99]`}
         >
-          <Link href={"/Grading"}>
+          <Link href={"/grading"}>
             <TbAward size={30} className="block float-left mr-4" />
             Grading
           </Link>
