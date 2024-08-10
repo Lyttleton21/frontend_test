@@ -17,7 +17,7 @@ import SubmittedComponent from "./SubmittedComponent";
 export default function SubmitComponent() {
   return (
     <Dialog>
-      <DialogTrigger className="bg-[#33CC99] p-3  rounded-2xl">
+      <DialogTrigger className="bg-[#F8F9FF] p-2  rounded-3xl">
         Submit
       </DialogTrigger>
       <DialogContent>

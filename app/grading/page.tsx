@@ -1,6 +1,6 @@
 import Frame from "@/components/Frame";
 import SideBar from "@/components/SideBar";
-import { Project, columns } from "@/components/columns";
+import { columns } from "@/app/grading/columns";
 import { grading } from "@/data/granding";
 import { DataTable } from "./data-table";
 import { Label } from "@/components/ui/label";
@@ -20,7 +20,15 @@ import { Button } from "@/components/ui/button";
 import SubmitComponent from "@/components/SubmitComponent";
 import SubmittedComponent from "@/components/SubmittedComponent";
 
-function getData(): Project[] {
+type Grading = {
+  Course_Title: string;
+  Deadline: string;
+  status: "Pending" | "Reviewed";
+  Date_Subimmted: string;
+  link: "View" | "Review";
+};
+
+function getData(): Grading[] {
   return grading;
 }
 
@@ -39,10 +47,6 @@ export default function Grading() {
       <section className="md:col-span-4 md:row-span-6 lg:col-span-5">
         <div className="bg-[#FFFFFF] w-full h-full rounded-lg p-4">
           <DataTable columns={columns} data={data} />
-          <div className="flex justify-evenly">
-            <SubmitComponent />
-            <SubmittedComponent />
-          </div>
         </div>
       </section>
     </main>

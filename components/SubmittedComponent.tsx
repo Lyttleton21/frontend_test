@@ -12,7 +12,7 @@ import { Input } from "./ui/input";
 export default function SubmittedComponent() {
   return (
     <Dialog>
-      <DialogTrigger className="bg-[#33CC99] p-3  rounded-2xl">
+      <DialogTrigger className="bg-[#FFFFFF] p-2  rounded-3xl">
         Submited
       </DialogTrigger>
       <DialogContent>
