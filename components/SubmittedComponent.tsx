@@ -13,7 +13,7 @@ export default function SubmittedComponent() {
   return (
     <Dialog>
       <DialogTrigger className="bg-[#FFFFFF] p-2  rounded-3xl">
-        Submited
+        View
       </DialogTrigger>
       <DialogContent>
         <DialogHeader>

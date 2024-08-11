@@ -18,7 +18,7 @@ export default function SubmitComponent() {
   return (
     <Dialog>
       <DialogTrigger className="bg-[#F8F9FF] p-2  rounded-3xl">
-        Submit
+        Review
       </DialogTrigger>
       <DialogContent>
         <DialogHeader>
